@@ -86,7 +86,7 @@ class Woplcommonclass {
 		@ob_end_clean();
 		return $buffer;
 	}
-	
+
 	
 	//SUDIPTA
 	public function logIt($msg,$flnm="debug.txt",$prnt=True) {
@@ -102,6 +102,13 @@ class Woplcommonclass {
 	}
 	public function errRet($msg,$data=NULL) {
 		return json_encode(array("err"=>True, "msg"=>$msg, "data"=>$data));
+	}
+
+	public function getWoplSettings($nm, $def) {
+		global $wpdb;
+		$table_name = $wpdb->prefix . 'wopl_settings';
+		$res = $wpdb->get_results("SELECT setting_value FROM $table_name WHERE setting_key='$nm'");
+		return (count($res) > 0 ? $res[0]->setting_value : $def);
 	}
 
 }

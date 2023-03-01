@@ -10,6 +10,7 @@ require_once("classes/wopl-searchhistory-class.php");
 require_once("classes/wopl-wallet-class.php");
 require_once("classes/wopl-recentitems-class.php");
 require_once("classes/wopl-manageorder-class.php");
+require_once("classes/wopl-login-class.php");
 
 
 global $session, $woplcommon, $woplmyaccount;
@@ -23,4 +24,5 @@ $woplsearchhistory = new Woplsearchhistoryclass();
 $woplwallet = new Woplwalletclass();
 $woplrecentitems = new Woplrecentitemsclass();
 $woplmanageorder = new Woplmanageorderclass();
+$woplloginclass = new Woplloginclass();
 ?>
