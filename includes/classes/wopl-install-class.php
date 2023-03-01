@@ -17,6 +17,20 @@ class Woplinstallclass {
 		
 		////add_action('admin_head', array( $this, 'wopl_include_admin' ));	
 		add_action('admin_menu', array( $this, 'wopl_menu' ));
+		add_action('wp_ajax_save_settings', function () {
+			global $wpdb;
+			$table_name = $wpdb->prefix . 'wopl_settings';
+			unset($_POST["action"]);
+			$errs = array();
+			foreach($_POST as $ky => $vl) {
+				$ans = $wpdb->update( $table_name, 
+					array('setting_value' => $vl),
+					array('setting_key'=>$ky)
+				);
+				if($ans === false) $errs[] = $ky;
+			}
+			die( !$errs ? $this->woplcommon->okRet("Successfully Saved") : $this->woplcommon->errRet("Error Occured",$errs));
+		});
 		////add_action( 'admin_footer', array( $this->woplcommon, 'wopl_ajax_call' ));
 
 		//Frontend JS/css
@@ -133,20 +147,6 @@ class Woplinstallclass {
 	public function wopl_menu(){  
 		add_options_page('Woocommerceplus Settings', 'Woocommerceplus', 'manage_options', 
 			'wopl_plugin', function () { echo $this->woplcommon->loadView("settings"); });	
-		add_action('wp_ajax_save_settings', function () {
-			global $wpdb;
-			$table_name = $wpdb->prefix . 'wopl_settings';
-			unset($_POST["action"]);
-			$errs = array();
-			foreach($_POST as $ky => $vl) {
-				$ans = $wpdb->update( $table_name, 
-					array('setting_value' => $vl),
-					array('setting_key'=>$ky)
-				);
-				if($ans === false) $errs[] = $ky;
-			}
-			die( !$errs ? $this->woplcommon->okRet("Successfully Saved") : $this->woplcommon->errRet("Error Occured",$errs));
-		});
 		//add_menu_page('Data Feed', 'Data Feed', 'administrator', 'woplmainslug', array( $this->woplcommon, 'display_datafeed_main' ), 'dashicons-download'); 
 	    //add_submenu_page('woplmainslug', 'Data Feed', 'Data Feed', 'administrator', 'woplmainslug', array( $this->woplcommon, 'display_datafeed_main' ));
     }

@@ -22,7 +22,7 @@ function getItm($arr, $pos, $defl="") {
 	global $wpdb;
 	$table_name = $wpdb->prefix . 'wopl_settings';
     $sql = "SELECT * FROM $table_name";
-    $results = $wpdb->get_results($sql) or die(mysql_error());
+    $results = $wpdb->get_results($sql) or die($wpdb->last_error);
     foreach($results as $ky => $result ) {
 		$dtl = explode("||",$result->setting_typ);
 		$ityp = getItm($dtl,0);
@@ -109,8 +109,8 @@ function saveSettings() {
 				showMsg(true,data["msg"]+JSON.stringify(data["data"]));
 			}
 		},
-        error: function (st, er) { 
-			showMsg(true,"ERROR !! "+JSON.stringify([st, er]));
+        error: function (st, er, et) { 
+			showMsg(true,"ERROR !! "+JSON.stringify([st, er, et]));
 		}		
     });
 	return false;
