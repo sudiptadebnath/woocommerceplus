@@ -21,7 +21,7 @@ class Woplinstallclass {
 
 		//Frontend JS/css
 		add_action('wp_head', array( $this, 'woplIncludeHeader' ));
-		add_action('wp_footer', array( $this->woplcommon, 'woplIncludeFooter' ));
+		add_action('wp_footer', array( $this, 'woplIncludeFooter' ));
 
 		//shortcode
 
@@ -132,7 +132,7 @@ class Woplinstallclass {
 
 	public function wopl_menu(){  
 		add_options_page('Woocommerceplus Settings', 'Woocommerceplus', 'manage_options', 
-			'wopl_plugin', function () { $this->woplcommon->loadView("settings"); });	
+			'wopl_plugin', function () { echo $this->woplcommon->loadView("settings"); });	
 		add_action('wp_ajax_save_settings', function () {
 			global $wpdb;
 			$table_name = $wpdb->prefix . 'wopl_settings';
@@ -145,7 +145,7 @@ class Woplinstallclass {
 				);
 				if($ans === false) $errs[] = $ky;
 			}
-			die( !$errs ? okRet("Successfully Saved") : errRet("Error Occured",$errs));
+			die( !$errs ? $this->woplcommon->okRet("Successfully Saved") : $this->woplcommon->errRet("Error Occured",$errs));
 		});
 		//add_menu_page('Data Feed', 'Data Feed', 'administrator', 'woplmainslug', array( $this->woplcommon, 'display_datafeed_main' ), 'dashicons-download'); 
 	    //add_submenu_page('woplmainslug', 'Data Feed', 'Data Feed', 'administrator', 'woplmainslug', array( $this->woplcommon, 'display_datafeed_main' ));
