@@ -15,11 +15,11 @@ class Woplloginclass {
 			return $this->woplcommon->loadView("login");
 		});
 		$this->displayAndSaveMobile();
-		$this->addLoginJsonHooks();
-		$this->addOTPJsonHooks();
+		$this->addLoginAjaxHooks();
+		$this->addOTPAjaxHooks();
 	}
 	
-	private function addLoginJsonHooks() {
+	private function addLoginAjaxHooks() {
 		add_action('wp_ajax_nopriv_mob_login', function () {
 			$users = get_users( array (
 				'meta_key'     => 'billing_mobile_phone',
@@ -84,7 +84,7 @@ class Woplloginclass {
 		});
 	}
 	
-	private function addOTPJsonHooks() {
+	private function addOTPAjaxHooks() {
 		add_action('wp_ajax_nopriv_otp_request', function () {
 			$act2 = $_POST["action2"];	
 			$ans = $this->woplcommon->okRet("Init");

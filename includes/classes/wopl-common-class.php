@@ -104,6 +104,12 @@ class Woplcommonclass {
 		return json_encode(array("err"=>True, "msg"=>$msg, "data"=>$data));
 	}
 
+
+	public function getItm($arr, $pos, $defl="") {
+		return !isset($arr[$pos]) ? $defl : $arr[$pos];
+	}
+
+
 	public function getWoplSettings($nm, $def) {
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'wopl_settings';

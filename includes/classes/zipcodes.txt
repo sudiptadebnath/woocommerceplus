@@ -1,0 +1,606 @@
+743456	West Bengal	North 24 parganas	Abad Kuliadanga
+700155	West Bengal	North 24 parganas	Abdalpur
+743425	West Bengal	North 24 parganas	Adampur
+743221	West Bengal	North 24 parganas	Adhata
+743248	West Bengal	North 24 parganas	Adikashimpur
+743276	West Bengal	North 24 parganas	Aharampur
+743425	West Bengal	North 24 parganas	Ajijnagar
+743710	West Bengal	North 24 parganas	Akaipur
+700135	West Bengal	North 24 parganas	Akandakeshari
+743263	West Bengal	North 24 parganas	Akrampur
+743249	West Bengal	North 24 parganas	Amankandi
+743435	West Bengal	North 24 parganas	Amberia
+743251	West Bengal	North 24 parganas	Ambikapur Mamudpur
+743251	West Bengal	North 24 parganas	Amdobe
+743456	West Bengal	North 24 parganas	Amodpur
+743445	West Bengal	North 24 parganas	Amta
+743273	West Bengal	North 24 parganas	Amudia
+743144	West Bengal	North 24 parganas	Anandamath
+700122	West Bengal	North 24 parganas	Anandapuri
+743401	West Bengal	North 24 parganas	Andharmanik
+743235	West Bengal	North 24 parganas	Angrail
+743486	West Bengal	North 24 parganas	Arbelia
+700059	West Bengal	North 24 parganas	Arjunpur
+743221	West Bengal	North 24 parganas	Arkhali Amdanga
+743251	West Bengal	North 24 parganas	Asharu
+743222	West Bengal	North 24 parganas	Asoknagar
+743222	West Bengal	North 24 parganas	Asoknagar R/s
+700059	West Bengal	North 24 parganas	Aswini Nagar
+743446	West Bengal	North 24 parganas	Atapur
+743438	West Bengal	North 24 parganas	Atghara
+743128	West Bengal	North 24 parganas	Athpur
+743425	West Bengal	North 24 parganas	Atpukur
+743427	West Bengal	North 24 parganas	Aturia
+743413	West Bengal	North 24 parganas	Badartala
+700128	West Bengal	North 24 parganas	Badu
+743401	West Bengal	North 24 parganas	Baduria
+743251	West Bengal	North 24 parganas	Bagangram
+743232	West Bengal	North 24 parganas	Bagdah
+743145	West Bengal	North 24 parganas	Bagermore
+700135	West Bengal	North 24 parganas	Bagu
+743446	West Bengal	North 24 parganas	Bahangatushkhali
+743423	West Bengal	North 24 parganas	Baidyapur
+743245	West Bengal	North 24 parganas	Baikara
+743262	West Bengal	North 24 parganas	Bairampur
+743427	West Bengal	North 24 parganas	Bajitpur
+743435	West Bengal	North 24 parganas	Bakra dabar
+743232	West Bengal	North 24 parganas	Baksha
+743251	West Bengal	North 24 parganas	Baliadanga
+743702	West Bengal	North 24 parganas	Balisha Chowmatha
+743245	West Bengal	North 24 parganas	Ballavpur
+743273	West Bengal	North 24 parganas	Balti
+743706	West Bengal	North 24 parganas	Bamangachi
+743442	West Bengal	North 24 parganas	Bamanibad
+743425	West Bengal	North 24 parganas	Bamanpukur
+743270	West Bengal	North 24 parganas	Baneswarpur
+743235	West Bengal	North 24 parganas	Bangaon
+743235	West Bengal	North 24 parganas	Bangaon Bazar
+743235	West Bengal	North 24 parganas	Bangaon Rs
+743286	West Bengal	North 24 parganas	Banglani
+700055	West Bengal	North 24 parganas	Bangur Avenue
+743233	West Bengal	North 24 parganas	Banipur
+743435	West Bengal	North 24 parganas	Bankra
+743435	West Bengal	North 24 parganas	Banshtala
+743427	West Bengal	North 24 parganas	Barabankra
+743145	West Bengal	North 24 parganas	Barajonepur
+700124	West Bengal	North 24 parganas	Barasat
+700124	West Bengal	North 24 parganas	Barasat Bazar
+743247	West Bengal	North 24 parganas	Barghorai
+700120	West Bengal	North 24 parganas	Barrackpore
+700120	West Bengal	North 24 parganas	Barrackpore Bazar
+700120	West Bengal	North 24 parganas	Barrackpore Govt.housing
+700123	West Bengal	North 24 parganas	Barrackpore Rs
+743262	West Bengal	North 24 parganas	Barrackpore Sripalli
+743426	West Bengal	North 24 parganas	Barunhat
+700048	West Bengal	North 24 parganas	Basak Bagan
+743411	West Bengal	North 24 parganas	Basirhat
+743411	West Bengal	North 24 parganas	Basirhat Bazar
+743412	West Bengal	North 24 parganas	Basirhat College
+743414	West Bengal	North 24 parganas	Basirhat Rs
+743251	West Bengal	North 24 parganas	Beara
+743456	West Bengal	North 24 parganas	Bechra Mohanpur
+743486	West Bengal	North 24 parganas	Begumpur
+700056	West Bengal	North 24 parganas	Belgharia
+743423	West Bengal	North 24 parganas	Beliaghata Bridge
+743423	West Bengal	North 24 parganas	Belpur
+743701	West Bengal	North 24 parganas	Belta
+743401	West Bengal	North 24 parganas	Bena
+743122	West Bengal	North 24 parganas	Bengal Enamel
+743701	West Bengal	North 24 parganas	Beraberi
+700121	West Bengal	North 24 parganas	Beraberia
+743270	West Bengal	North 24 parganas	Berbari
+743263	West Bengal	North 24 parganas	Bergoom
+743442	West Bengal	North 24 parganas	Bermajur
+743445	West Bengal	North 24 parganas	Bhabanipur
+743422	West Bengal	North 24 parganas	Bhabla
+743427	West Bengal	North 24 parganas	Bhaduria
+700128	West Bengal	North 24 parganas	Bhagyamantapur
+743439	West Bengal	North 24 parganas	Bhanderkhali
+743290	West Bengal	North 24 parganas	Bhanderkhola
+743502	West Bengal	North 24 parganas	Bhangar (nf)
+743251	West Bengal	North 24 parganas	Bharatpur
+743423	West Bengal	North 24 parganas	Bhasila
+743123	West Bengal	North 24 parganas	Bhatpara
+743270	West Bengal	North 24 parganas	Bhawanipur
+743456	West Bengal	North 24 parganas	Bhebia
+743427	West Bengal	North 24 parganas	Bhojpara
+743426	West Bengal	North 24 parganas	Bhurkunda
+700064	West Bengal	North 24 parganas	Bidhan Nagar
+700064	West Bengal	North 24 parganas	Bidhan Nagar ae market
+700091	West Bengal	North 24 parganas	Bidhan Nagar ck market
+700106	West Bengal	North 24 parganas	Bidhan Nagar ib market
+700098	West Bengal	North 24 parganas	Bidhan Nagar sai complex
+700064	West Bengal	North 24 parganas	Bidhannagr Cc block
+743145	West Bengal	North 24 parganas	Binodnagar
+743234	West Bengal	North 24 parganas	Bira Ballavepara
+743422	West Bengal	North 24 parganas	Biramnagar
+700119	West Bengal	North 24 parganas	Bishalakshi Ghat
+743435	West Bengal	North 24 parganas	Bishpur
+743299	West Bengal	North 24 parganas	Bithari
+743235	West Bengal	North 24 parganas	Boaldah
+700126	West Bengal	North 24 parganas	Bodai
+743294	West Bengal	North 24 parganas	Bohara
+743446	West Bengal	North 24 parganas	Bowthakurani
+743442	West Bengal	North 24 parganas	Boyermari
+743232	West Bengal	North 24 parganas	Boyra
+700119	West Bengal	North 24 parganas	Bramhasthan
+743401	West Bengal	North 24 parganas	Buruj
+743405	West Bengal	North 24 parganas	Chaigharia
+743445	West Bengal	North 24 parganas	Chaita
+743456	West Bengal	North 24 parganas	Chaital
+743440	West Bengal	North 24 parganas	Chakla
+700059	West Bengal	North 24 parganas	Chakpanchuria
+743426	West Bengal	North 24 parganas	Chakpatli
+743235	West Bengal	North 24 parganas	Champaberia
+743291	West Bengal	North 24 parganas	Champapukur
+743245	West Bengal	North 24 parganas	Chand Para bazar
+743439	West Bengal	North 24 parganas	Chandanpur
+743247	West Bengal	North 24 parganas	Chandipur
+743145	West Bengal	North 24 parganas	Chandmari Road
+743424	West Bengal	North 24 parganas	Chandpur
+743145	West Bengal	North 24 parganas	Chandua
+743247	West Bengal	North 24 parganas	Charghat
+743245	West Bengal	North 24 parganas	Chekati
+743294	West Bengal	North 24 parganas	Chhoto Jagulia
+743287	West Bengal	North 24 parganas	Chikanpara
+743456	West Bengal	North 24 parganas	Chimta Kachari
+743424	West Bengal	North 24 parganas	Chorashi
+743439	West Bengal	North 24 parganas	Choto Sahebkhali
+743442	West Bengal	North 24 parganas	Choto Sehara
+743290	West Bengal	North 24 parganas	Chowberia
+700105	West Bengal	North 24 parganas	Chowbhanga
+743425	West Bengal	North 24 parganas	Chowhata
+743287	West Bengal	North 24 parganas	Colony Ramchandra pur
+743249	West Bengal	North 24 parganas	Colony Simulia
+743442	West Bengal	North 24 parganas	Dakshin Akratola
+743429	West Bengal	North 24 parganas	Dakshin Bagundi
+743456	West Bengal	North 24 parganas	Dakshin Bhebia
+743247	West Bengal	North 24 parganas	Dakshin Chatra
+743439	West Bengal	North 24 parganas	Dakshin Hatgachha
+743446	West Bengal	North 24 parganas	Dakshin Korakati
+743251	West Bengal	North 24 parganas	Dakshin Panchpota
+743412	West Bengal	North 24 parganas	Dandirhat
+743701	West Bengal	North 24 parganas	Dariapur
+743247	West Bengal	North 24 parganas	Deara
+743424	West Bengal	North 24 parganas	Debalaya
+743423	West Bengal	North 24 parganas	Deganga
+700059	West Bengal	North 24 parganas	Desh Bandhu nagar
+743439	West Bengal	North 24 parganas	Deuli Pukuria
+743247	West Bengal	North 24 parganas	Dhakuria Kali bari
+743412	West Bengal	North 24 parganas	Dhaltita
+743486	West Bengal	North 24 parganas	Dhanyakuria
+700105	West Bengal	North 24 parganas	Dhapa
+743435	West Bengal	North 24 parganas	Dharamberia
+743235	West Bengal	North 24 parganas	Dharampukuria
+743249	West Bengal	North 24 parganas	Dharampur
+743442	West Bengal	North 24 parganas	Dheknamari
+743446	West Bengal	North 24 parganas	Dhuchnikhali
+743425	West Bengal	North 24 parganas	Dhutradaha
+743248	West Bengal	North 24 parganas	Digha
+743290	West Bengal	North 24 parganas	Dighari
+743235	West Bengal	North 24 parganas	Dinabandhunagar
+743702	West Bengal	North 24 parganas	Dogacha
+743245	West Bengal	North 24 parganas	Dogachhia Monmohanpur
+743130	West Bengal	North 24 parganas	Dogachia
+743439	West Bengal	North 24 parganas	Dulduli Mathbari
+700055	West Bengal	North 24 parganas	Dum Dum park
+743245	West Bengal	North 24 parganas	Duma
+743446	West Bengal	North 24 parganas	Durgamandap
+743286	West Bengal	North 24 parganas	Duttapara
+743248	West Bengal	North 24 parganas	Duttapukur
+743446	West Bengal	North 24 parganas	Dwarikjungale
+743124	West Bengal	North 24 parganas	Esd (m)
+743273	West Bengal	North 24 parganas	East Bishnupur
+700129	West Bengal	North 24 parganas	East Udayrajpur
+743293	West Bengal	North 24 parganas	Eojnagar
+743127	West Bengal	North 24 parganas	Feeder Road
+743129	West Bengal	North 24 parganas	Fingapara
+743263	West Bengal	North 24 parganas	Fultala
+743710	West Bengal	North 24 parganas	Gadpukuria
+743249	West Bengal	North 24 parganas	Gaighata
+743252	West Bengal	North 24 parganas	Gaipur
+743263	West Bengal	North 24 parganas	Ganadipayan
+743427	West Bengal	North 24 parganas	Gandharbpur
+700132	West Bengal	North 24 parganas	Ganganagar
+743251	West Bengal	North 24 parganas	Ganrapota
+700132	West Bengal	North 24 parganas	Ganti
+743456	West Bengal	North 24 parganas	Garakupi
+743133	West Bengal	North 24 parganas	Garulia
+743251	West Bengal	North 24 parganas	Gazipur
+743235	West Bengal	North 24 parganas	Ghatbour
+743442	West Bengal	North 24 parganas	Ghatihara
+743251	West Bengal	North 24 parganas	Ghatpatila
+743445	West Bengal	North 24 parganas	Ghona
+743426	West Bengal	North 24 parganas	Ghoni
+743249	West Bengal	North 24 parganas	Ghonza
+743426	West Bengal	North 24 parganas	Ghosalbati
+700120	West Bengal	North 24 parganas	Ghosh Para road
+743442	West Bengal	North 24 parganas	Ghoshpara
+743289	West Bengal	North 24 parganas	Ghoshpur
+700059	West Bengal	North 24 parganas	Ghuni
+743245	West Bengal	North 24 parganas	Goalbathan
+743427	West Bengal	North 24 parganas	Goaldaha
+743252	West Bengal	North 24 parganas	Gobardanga
+743252	West Bengal	North 24 parganas	Gobardanga Ichapur
+743423	West Bengal	North 24 parganas	Gobardhanpur
+743424	West Bengal	North 24 parganas	Gobila
+743273	West Bengal	North 24 parganas	Gobinda Pur
+743251	West Bengal	North 24 parganas	Gobrapur
+743293	West Bengal	North 24 parganas	Gokna
+743286	West Bengal	North 24 parganas	Gokulpur
+743708	West Bengal	North 24 parganas	Golabari Bazar
+743125	West Bengal	North 24 parganas	Golghar
+743262	West Bengal	North 24 parganas	Gopalnagar
+743445	West Bengal	North 24 parganas	Gopalpur
+743710	West Bengal	North 24 parganas	Goribpur
+743166	West Bengal	North 24 parganas	Gorifa
+743292	West Bengal	North 24 parganas	Goshna
+743422	West Bengal	North 24 parganas	Gotra
+743251	West Bengal	North 24 parganas	Gotri
+700059	West Bengal	North 24 parganas	Gouranganagar
+743445	West Bengal	North 24 parganas	Gouribhoj
+743704	West Bengal	North 24 parganas	Guma
+743125	West Bengal	North 24 parganas	Gupter Bagan
+743127	West Bengal	North 24 parganas	Gurdah
+743263	West Bengal	North 24 parganas	Habra
+743268	West Bengal	North 24 parganas	Habra Prafulla nagar
+743443	West Bengal	North 24 parganas	Hadipur
+743273	West Bengal	North 24 parganas	Hakimpur
+743134	West Bengal	North 24 parganas	Halishahar
+743263	West Bengal	North 24 parganas	Harba Srinagar
+743223	West Bengal	North 24 parganas	Haripur
+743412	West Bengal	North 24 parganas	Harishpur
+743425	West Bengal	North 24 parganas	Haroa
+743426	West Bengal	North 24 parganas	Hasnabad
+743439	West Bengal	North 24 parganas	Hasnabad Rampur
+700059	West Bengal	North 24 parganas	Hatgacha
+743439	West Bengal	North 24 parganas	Hatgachha
+700157	West Bengal	North 24 parganas	Hatiara
+700135	West Bengal	North 24 parganas	Hatisala
+743232	West Bengal	North 24 parganas	Hatkurulia
+743269	West Bengal	North 24 parganas	Hatthuba
+743135	West Bengal	North 24 parganas	Hazinagar
+743270	West Bengal	North 24 parganas	Helencha Colony
+743439	West Bengal	North 24 parganas	Hemnagar
+743271	West Bengal	North 24 parganas	Hijalpukuria
+743435	West Bengal	North 24 parganas	Hingalganj
+743290	West Bengal	North 24 parganas	Hingli
+743221	West Bengal	North 24 parganas	Hishabi
+700127	West Bengal	North 24 parganas	Hridaypur
+743144	West Bengal	North 24 parganas	Ichapur
+743144	West Bengal	North 24 parganas	Ichapur Nawabganj
+743144	West Bengal	North 24 parganas	Ichapur Rifle factory
+743426	West Bengal	North 24 parganas	Ichapurabad
+743222	West Bengal	North 24 parganas	Iswarigacha
+743292	West Bengal	North 24 parganas	Itinda
+743293	West Bengal	North 24 parganas	Jadurhati
+700122	West Bengal	North 24 parganas	Jaffarpur
+743251	West Bengal	North 24 parganas	Jagadishpur
+700126	West Bengal	North 24 parganas	Jagannathpur
+743125	West Bengal	North 24 parganas	Jagatdal
+743249	West Bengal	North 24 parganas	Jaleswar
+743288	West Bengal	North 24 parganas	Janaphul
+743438	West Bengal	North 24 parganas	Jangalpur
+743401	West Bengal	North 24 parganas	Jasaikati
+743233	West Bengal	North 24 parganas	Jesur Jeoldanga
+743135	West Bengal	North 24 parganas	Jetia
+743245	West Bengal	North 24 parganas	Jhawdanga
+743245	West Bengal	North 24 parganas	Jhikra
+743442	West Bengal	North 24 parganas	Jhopkhali
+743439	West Bengal	North 24 parganas	Jogeshganj
+743446	West Bengal	North 24 parganas	Joygopalpur
+743425	West Bengal	North 24 parganas	Joygram
+743234	West Bengal	North 24 parganas	Joypul
+700110	West Bengal	North 24 parganas	Jugberia
+700059	West Bengal	North 24 parganas	Jyangra
+743247	West Bengal	North 24 parganas	Kachdaha
+743424	West Bengal	North 24 parganas	Kachua
+743293	West Bengal	North 24 parganas	Kachua Swarupnagar
+700125	West Bengal	North 24 parganas	Kadambagachi
+700135	West Bengal	North 24 parganas	Kadampukur
+743245	West Bengal	North 24 parganas	Kahankia
+743427	West Bengal	North 24 parganas	Kaijuri
+743245	West Bengal	North 24 parganas	Kaipukuria
+743423	West Bengal	North 24 parganas	Kaliani
+743442	West Bengal	North 24 parganas	Kalinagar Hat
+743439	West Bengal	North 24 parganas	Kalitala
+743235	West Bengal	North 24 parganas	Kalupur
+743272	West Bengal	North 24 parganas	Kalyangarh
+743438	West Bengal	North 24 parganas	Kamdevkati
+700125	West Bengal	North 24 parganas	Kamdevpur
+700135	West Bengal	North 24 parganas	Kamduni
+743193	West Bengal	North 24 parganas	Kampa
+743435	West Bengal	North 24 parganas	Kanchanpur
+743701	West Bengal	North 24 parganas	Kanchiara
+743145	West Bengal	North 24 parganas	Kanchrapara
+743145	West Bengal	North 24 parganas	Kanchrapara Loco shop
+743126	West Bengal	North 24 parganas	Kankinara
+743272	West Bengal	North 24 parganas	Kankpul
+743442	West Bengal	North 24 parganas	Kanmari
+743286	West Bengal	North 24 parganas	Kantabagan
+743144	West Bengal	North 24 parganas	Kantadhar
+743247	West Bengal	North 24 parganas	Kapileswarpur
+743251	West Bengal	North 24 parganas	Karanga
+700113	West Bengal	North 24 parganas	Karnamadhabpur
+743412	West Bengal	North 24 parganas	Karnolkora
+743423	West Bengal	North 24 parganas	Karua Chandpur
+700135	West Bengal	North 24 parganas	Kashinathpur
+743422	West Bengal	North 24 parganas	Kathur
+743427	West Bengal	North 24 parganas	Katiahat
+700125	West Bengal	North 24 parganas	Kazipara
+743194	West Bengal	North 24 parganas	Kelabagan
+743126	West Bengal	North 24 parganas	Keotia
+743425	West Bengal	North 24 parganas	Khalisadi
+743405	West Bengal	North 24 parganas	Khalitpur
+743273	West Bengal	North 24 parganas	Khantura
+743456	West Bengal	North 24 parganas	Kharampur
+743442	West Bengal	North 24 parganas	Kharihatabad
+743245	West Bengal	North 24 parganas	Kharua Rajapur
+743425	West Bengal	North 24 parganas	Kharupala
+743425	West Bengal	North 24 parganas	Khasbalanda
+700125	West Bengal	North 24 parganas	Khilkapur
+743428	West Bengal	North 24 parganas	Kholapota
+743427	West Bengal	North 24 parganas	Khorgachi
+743446	West Bengal	North 24 parganas	Khulna
+700128	West Bengal	North 24 parganas	Kirtipur
+743429	West Bengal	North 24 parganas	Kishorenagar Jalalpur
+743276	West Bengal	North 24 parganas	Kodalia Agapur
+743438	West Bengal	North 24 parganas	Kolsur
+743251	West Bengal	North 24 parganas	Koniara
+700130	West Bengal	North 24 parganas	Korachandigarh
+743446	West Bengal	North 24 parganas	Korakati
+743235	West Bengal	North 24 parganas	Korarbagan
+743435	West Bengal	North 24 parganas	Kothabari
+743127	West Bengal	North 24 parganas	Kowgachi
+743251	West Bengal	North 24 parganas	Krishnachandapur
+700102	West Bengal	North 24 parganas	Krishnapur
+743270	West Bengal	North 24 parganas	Kulia
+743166	West Bengal	North 24 parganas	Kuliagarh
+743270	West Bengal	North 24 parganas	Kumarkhola
+743425	West Bengal	North 24 parganas	Kumarzole
+743274	West Bengal	North 24 parganas	Kumra Kashipur
+743126	West Bengal	North 24 parganas	Kushdanga
+700064	West Bengal	North 24 parganas	Labony Estate
+743439	West Bengal	North 24 parganas	Labukhali
+700089	West Bengal	North 24 parganas	Lake Town
+743135	West Bengal	North 24 parganas	Lalkuthi
+700135	West Bengal	North 24 parganas	Lauhati
+743234	West Bengal	North 24 parganas	Laxmipul
+700135	West Bengal	North 24 parganas	Machibhanga
+700128	West Bengal	North 24 parganas	Madanpur Krishnapur
+743166	West Bengal	North 24 parganas	Madarpur
+743439	West Bengal	North 24 parganas	Madhav Kathi
+700129	West Bengal	North 24 parganas	Madhyamgram
+700130	West Bengal	North 24 parganas	Madhyamgram Bazar
+743273	West Bengal	North 24 parganas	Madia
+743262	West Bengal	North 24 parganas	Madiahat
+743126	West Bengal	North 24 parganas	Madrai
+743251	West Bengal	North 24 parganas	Mahananda Para
+700059	West Bengal	North 24 parganas	Mahishbathan
+743145	West Bengal	North 24 parganas	Majhipara
+743422	West Bengal	North 24 parganas	Makhalgacha
+743425	West Bengal	North 24 parganas	Malancha
+743439	West Bengal	North 24 parganas	Malekangumti
+743232	West Bengal	North 24 parganas	Malidah
+743456	West Bengal	North 24 parganas	Malikagherai
+700126	West Bengal	North 24 parganas	Malikapur
+743232	West Bengal	North 24 parganas	Mamabhagina
+743166	West Bengal	North 24 parganas	Mamudpur
+743439	West Bengal	North 24 parganas	Manaikati
+743438	West Bengal	North 24 parganas	Mandra
+743263	West Bengal	North 24 parganas	Manicktala
+743232	West Bengal	North 24 parganas	Mashyampur
+743289	West Bengal	North 24 parganas	Maslandapur
+743423	West Bengal	North 24 parganas	Maslishpur
+743701	West Bengal	North 24 parganas	Masunda
+743442	West Bengal	North 24 parganas	Mathbariabad
+743244	West Bengal	North 24 parganas	Mathuadham Mondalpara
+743486	West Bengal	North 24 parganas	Matia
+700135	West Bengal	North 24 parganas	Matiaghata
+743292	West Bengal	North 24 parganas	Merudandi
+743144	West Bengal	North 24 parganas	Metal & steel factory
+700133	West Bengal	North 24 parganas	Michealnagar
+743441	West Bengal	North 24 parganas	Minakhan
+743700	West Bengal	North 24 parganas	Mirhati
+743427	West Bengal	North 24 parganas	Model Belghoria
+743291	West Bengal	North 24 parganas	Mominpur
+743127	West Bengal	North 24 parganas	Mondalpara
+743297	West Bengal	North 24 parganas	Mongalganj
+743446	West Bengal	North 24 parganas	Monipur
+700120	West Bengal	North 24 parganas	Monirampore
+743235	West Bengal	North 24 parganas	Motiganj
+700128	West Bengal	North 24 parganas	Mudiahat
+743123	West Bengal	North 24 parganas	Muktarpur
+743127	West Bengal	North 24 parganas	Mulajore
+743456	West Bengal	North 24 parganas	Murarisah
+743251	West Bengal	North 24 parganas	Murighata
+743136	West Bengal	North 24 parganas	Nabanagar
+700126	West Bengal	North 24 parganas	Nabapally
+743290	West Bengal	North 24 parganas	Nahata
+743165	West Bengal	North 24 parganas	Naihati
+743165	West Bengal	North 24 parganas	Naihati Anandabazar
+743235	West Bengal	North 24 parganas	Nakpul
+743252	West Bengal	North 24 parganas	Nakpul Kuchlia
+743294	West Bengal	North 24 parganas	Naksha
+743297	West Bengal	North 24 parganas	Naldugri
+743442	West Bengal	North 24 parganas	Nalkora
+743425	West Bengal	North 24 parganas	Narabunia
+700136	West Bengal	North 24 parganas	Narayanpur
+743270	West Bengal	North 24 parganas	Nataberia
+700113	West Bengal	North 24 parganas	Natagarh
+743249	West Bengal	North 24 parganas	Natagram
+743401	West Bengal	North 24 parganas	Naya Basti
+700120	West Bengal	North 24 parganas	Nayapally
+743442	West Bengal	North 24 parganas	Nazat Hatkhola
+743486	West Bengal	North 24 parganas	Nehalpur
+700156	West Bengal	North 24 parganas	New Town
+700131	West Bengal	North 24 parganas	Newbarackpur
+700121	West Bengal	North 24 parganas	Nilganj Bazaar
+743294	West Bengal	North 24 parganas	Nimdaria
+743456	West Bengal	North 24 parganas	Nimichi
+743286	West Bengal	North 24 parganas	Nirman
+743442	West Bengal	North 24 parganas	Nityaberia
+743273	West Bengal	North 24 parganas	Nityanandakati
+700125	West Bengal	North 24 parganas	Noapara
+700125	West Bengal	North 24 parganas	Noapara Madhavpur
+700122	West Bengal	North 24 parganas	Nonachandanpukur
+700105	West Bengal	North 24 parganas	Nowbhanga
+743456	West Bengal	North 24 parganas	Nurpur
+743702	West Bengal	North 24 parganas	Nutungram
+700123	West Bengal	North 24 parganas	Orderly Bazar
+743144	West Bengal	North 24 parganas	P.S.bureau
+743446	West Bengal	North 24 parganas	P/ atapur
+743126	West Bengal	North 24 parganas	Padmalavpur
+700135	West Bengal	North 24 parganas	Paikan
+743422	West Bengal	North 24 parganas	Paikparahat
+700135	West Bengal	North 24 parganas	Pakka Polarhat
+700123	West Bengal	North 24 parganas	Palashi
+743701	West Bengal	North 24 parganas	Palla
+743127	West Bengal	North 24 parganas	Paltapara
+743710	West Bengal	North 24 parganas	Panchberia
+743235	West Bengal	North 24 parganas	Panchita
+743273	West Bengal	North 24 parganas	Panchpota
+743292	West Bengal	North 24 parganas	Panitar
+700123	West Bengal	North 24 parganas	Panpara
+743439	West Bengal	North 24 parganas	Parghumti
+743438	West Bengal	North 24 parganas	Parpatna
+743423	West Bengal	North 24 parganas	Parulia
+743429	West Bengal	North 24 parganas	Paschim Madhyampur
+743702	West Bengal	North 24 parganas	Paschim Malikberia
+743446	West Bengal	North 24 parganas	Paschim Monipur
+743427	West Bengal	North 24 parganas	Paschim Palta
+743439	West Bengal	North 24 parganas	Paschim Parghumti
+743439	West Bengal	North 24 parganas	Paschim Sridharkati
+700135	West Bengal	North 24 parganas	Patharghata
+743439	West Bengal	North 24 parganas	Pathghoria
+743251	West Bengal	North 24 parganas	Pathsimulia
+700048	West Bengal	North 24 parganas	Patipukur
+743405	West Bengal	North 24 parganas	Petrapole
+743423	West Bengal	North 24 parganas	Phazilpur
+743456	West Bengal	North 24 parganas	Phulboniabad
+743744	West Bengal	North 24 parganas	Pifa
+743133	West Bengal	North 24 parganas	Pinkal
+700135	West Bengal	North 24 parganas	Pithapukuria
+700135	West Bengal	North 24 parganas	Polarhat
+700101	West Bengal	North 24 parganas	Prafulla Kanan
+743704	West Bengal	North 24 parganas	Prithiba
+743427	West Bengal	North 24 parganas	Punra
+743165	West Bengal	North 24 parganas	Puranandapally
+743273	West Bengal	North 24 parganas	Purandarpur
+743235	West Bengal	North 24 parganas	Purantan Bongaon
+743435	West Bengal	North 24 parganas	Purba khejurberia
+743439	West Bengal	North 24 parganas	Purba Deuli
+743442	West Bengal	North 24 parganas	Purba Sankardaha
+743127	West Bengal	North 24 parganas	Purbabidyadharpur
+700097	West Bengal	North 24 parganas	Purbachal
+743263	West Bengal	North 24 parganas	Putia
+743428	West Bengal	North 24 parganas	Raghunathpur
+743425	West Bengal	North 24 parganas	Raikhan
+700135	West Bengal	North 24 parganas	Rajarhat
+700135	West Bengal	North 24 parganas	Rajarhat Bishnupur
+700135	West Bengal	North 24 parganas	Rajarhat Deara
+700136	West Bengal	North 24 parganas	Rajarhat Gopalpur
+743289	West Bengal	North 24 parganas	Rajballavpur
+743291	West Bengal	North 24 parganas	Rajendrapur
+743702	West Bengal	North 24 parganas	Rajibpur
+743235	West Bengal	North 24 parganas	Ram Nagar road
+743247	West Bengal	North 24 parganas	Ramchandrapur Khaspur
+743426	West Bengal	North 24 parganas	Rameswarpur
+743166	West Bengal	North 24 parganas	Ramghat
+743194	West Bengal	North 24 parganas	Ramlakshi Busti lane
+743273	West Bengal	North 24 parganas	Ramnagar
+743423	West Bengal	North 24 parganas	Ramnathpur
+743249	West Bengal	North 24 parganas	Rampur Bhatpara
+743290	West Bengal	North 24 parganas	Ramshankarpur
+743251	West Bengal	North 24 parganas	Ranihati
+700135	West Bengal	North 24 parganas	Rohanda
+743234	West Bengal	North 24 parganas	Rowtara
+743401	West Bengal	North 24 parganas	Rudrapur
+743435	West Bengal	North 24 parganas	Rupmari
+743295	West Bengal	North 24 parganas	Sabdalpur
+700048	West Bengal	North 24 parganas	Sadhana Ausudhalaya road
+743221	West Bengal	North 24 parganas	Sadhanpur Uludanga
+743427	West Bengal	North 24 parganas	Safirabad
+743273	West Bengal	North 24 parganas	Saguna
+743439	West Bengal	North 24 parganas	Sahebkhali
+743276	West Bengal	North 24 parganas	Sajirhat
+743273	West Bengal	North 24 parganas	Sakdah Jadabpur
+743145	West Bengal	North 24 parganas	Saliadaha
+743247	West Bengal	North 24 parganas	Salua
+743263	West Bengal	North 24 parganas	Salua Govt. colony
+743439	West Bengal	North 24 parganas	Samsernagar
+743272	West Bengal	North 24 parganas	Samudrapur
+743423	West Bengal	North 24 parganas	Sandalia
+743435	West Bengal	North 24 parganas	Sandeler Bil
+743446	West Bengal	North 24 parganas	Sandeshkhali
+743422	West Bengal	North 24 parganas	Sangrampur
+743286	West Bengal	North 24 parganas	Sanrapul
+743252	West Bengal	North 24 parganas	Sarkarpara Kuthipara
+743423	West Bengal	North 24 parganas	Sasan
+743245	West Bengal	North 24 parganas	Sassadanga
+743290	West Bengal	North 24 parganas	Satashi
+743262	West Bengal	North 24 parganas	Satberia
+700135	West Bengal	North 24 parganas	Satbhaya
+743427	West Bengal	North 24 parganas	Sayestanagar
+700091	West Bengal	North 24 parganas	Sech Bhawan
+743424	West Bengal	North 24 parganas	Secondranagar
+743272	West Bengal	North 24 parganas	Sendanga
+700124	West Bengal	North 24 parganas	Sethpukur
+743234	West Bengal	North 24 parganas	Sethpur
+700121	West Bengal	North 24 parganas	Sewli Telinipara
+700055	West Bengal	North 24 parganas	Shyam Nagar dum dum
+700135	West Bengal	North 24 parganas	Shyamnagar
+743292	West Bengal	North 24 parganas	Sibhati
+700135	West Bengal	North 24 parganas	Sikharpur
+743428	West Bengal	North 24 parganas	Sikrakulingarh
+743262	West Bengal	North 24 parganas	Simulia
+743401	West Bengal	North 24 parganas	Simulia Durgapur
+743426	West Bengal	North 24 parganas	Simulia Kalibari
+743289	West Bengal	North 24 parganas	Simulpur
+743297	West Bengal	North 24 parganas	Sindrani
+743446	West Bengal	North 24 parganas	Sitalia
+743445	West Bengal	North 24 parganas	Sodarpur-behala
+700110	West Bengal	North 24 parganas	Sodepur
+743423	West Bengal	North 24 parganas	Sohai Kumarpur
+743429	West Bengal	North 24 parganas	Soladana
+743271	West Bengal	North 24 parganas	Sonakenia
+743701	West Bengal	North 24 parganas	Sonekpur
+700135	West Bengal	North 24 parganas	Sonepur
+743439	West Bengal	North 24 parganas	South Charalkhali
+743442	West Bengal	North 24 parganas	South Sikargheri
+700048	West Bengal	North 24 parganas	Sreebhumi
+743439	West Bengal	North 24 parganas	Sridharkati
+743701	West Bengal	North 24 parganas	Srikrishnapur
+743428	West Bengal	North 24 parganas	Srinagar
+743235	West Bengal	North 24 parganas	Subhashnagar
+743446	West Bengal	North 24 parganas	Sukdwani
+743701	West Bengal	North 24 parganas	Sulka Durgapur
+743426	West Bengal	North 24 parganas	Sulkuniabad
+743251	West Bengal	North 24 parganas	Sundarpur
+743701	West Bengal	North 24 parganas	Suria
+700121	West Bengal	North 24 parganas	Suryapur
+743273	West Bengal	North 24 parganas	Sutia Barasat
+743286	West Bengal	North 24 parganas	Swarupnagar
+743429	West Bengal	North 24 parganas	Taki
+743429	West Bengal	North 24 parganas	Taki Market
+743435	West Bengal	North 24 parganas	Takimamudpur
+743429	West Bengal	North 24 parganas	Takipur
+700123	West Bengal	North 24 parganas	Talpukur
+743234	West Bengal	North 24 parganas	Talsa
+743251	West Bengal	North 24 parganas	Tangra Colony
+743401	West Bengal	North 24 parganas	Taragunia
+743290	West Bengal	North 24 parganas	Taranipur
+743703	West Bengal	North 24 parganas	Tentulia
+743245	West Bengal	North 24 parganas	Tetulbaria
+743287	West Bengal	North 24 parganas	Thakurnagar
+743297	West Bengal	North 24 parganas	Thoara
+700119	West Bengal	North 24 parganas	Titagarh
+743446	West Bengal	North 24 parganas	Tushklali
+743425	West Bengal	North 24 parganas	Uchildah
+700129	West Bengal	North 24 parganas	Udayrajpur
+743289	West Bengal	North 24 parganas	Uludanga
+700135	West Bengal	North 24 parganas	Uttar Kashipur
+743439	West Bengal	North 24 parganas	Uttar Malikanghumti
+700120	West Bengal	North 24 parganas	Vivekananda Math
+743428	West Bengal	North 24 parganas	Zafarpur
+743422	West Bengal	North 24 parganas	Zirakpur
