@@ -2,11 +2,12 @@
 if( !defined("ABSPATH") ) die('Direct access not allowed!');
 
 class Woplmanageorderclass {
-    private $woplcommon;
+    private $woplcommon,$woplzipcodeclass;
 
     public function __construct() {
-        global $woplcommon;
+        global $woplcommon,$woplzipcodeclass;
         $this->woplcommon = $woplcommon;
+        $this->woplzipcodeclass = $woplzipcodeclass;
         $this->displayCancelAndReorder();
         $this->addReturnableCheckBoxToProduct();
     }
@@ -15,7 +16,7 @@ class Woplmanageorderclass {
 		add_filter( 'woocommerce_my_account_my_orders_actions', function($actions, $order) {
 			$odtl = $this->getOrderDetail($order->get_id());
 			
-			$nonRefndItm = array_filter($odtl,function($itm) {
+			$nonRefndItm = array_filter($odtl["items"],function($itm) {
 			  return !$itm['returnable'];
 			});
 			$CANCEL_PERIOD = (int)$this->woplcommon->getWoplSettings("CANCEL_PERIOD","100");
@@ -23,12 +24,14 @@ class Woplmanageorderclass {
 			$today = new DateTime();
 			$abs_diff = $today->diff($ordCrDt)->format("%a");
 			if($abs_diff > $CANCEL_PERIOD) unset($actions["cancel"]);
-			if($odtl and $nonRefndItm) unset($actions["cancel"]);
+			if($odtl["items"] and $nonRefndItm) unset($actions["cancel"]);
+			if(! $this->woplzipcodeclass->zipcodeHasFacility(
+			$odtl["order_data"]['shipping']['postcode'],"return_abl")) unset($actions["cancel"]);
 			
-			$outStockItm = array_filter($odtl,function($itm) {
+			$outStockItm = array_filter($odtl["items"],function($itm) {
 			  return $itm['stock'] <= $itm['qty'];
 			});
-			if($odtl and !$outStockItm) {
+			if($odtl["items"] and !$outStockItm) {
 			  $actions[] = array(
 				"url" => "#",
 				"name" => __( 'ReOrder', 'woocommerce' ),
@@ -40,12 +43,12 @@ class Woplmanageorderclass {
 
 		add_action( 'wp_ajax_nopriv_reorder', function() {
 			$oDtl = $this->getOrderDetail($_REQUEST["orderId"]);
-			$outStockItm = array_filter($oDtl,function($itm) {
+			$outStockItm = array_filter($oDtl["items"],function($itm) {
 			  return $itm['stock'] <= $itm['qty'];
 			});
 			$ans="";
-			if($oDtl and !$outStockItm) {
-				foreach($oDtl as $pid => $prod) {
+			if($oDtl["items"] and !$outStockItm) {
+				foreach($oDtl["items"] as $pid => $prod) {
 					if($prod['stock'] > $prod['qty']) {
 						//$this->woplcommon->logIt(array("wopl_ajax_nopriv_reorder",$pid,$prod));
 						WC()->cart->add_to_cart( $pid, $prod['qty']);
@@ -54,7 +57,7 @@ class Woplmanageorderclass {
 				$ans = $this->woplcommon->okRet("Successfully Added to Cart.",wc_get_checkout_url());
 			} else {
 				if($outStockItm) $ans = $this->woplcommon->errRet("Blank Some Item's stock is insufficient");
-				if($oDtl == []) $ans = $this->woplcommon->errRet("Can't fetch order detail",array($_REQUEST["orderId"],$oDtl));
+				if($oDtl["items"] == []) $ans = $this->woplcommon->errRet("Can't fetch order detail",array($_REQUEST["orderId"],$oDtl));
 			}
 			die($ans);			
 		} ); 
@@ -63,6 +66,7 @@ class Woplmanageorderclass {
 
 	private function getOrderDetail($oid) {
 		$order = wc_get_order($oid);
+		$order_data = $order->get_data();
 		$detl = array();
 		foreach($order->get_items() as $item_id => $item ) {
 			$product = $item->get_product();
@@ -78,8 +82,8 @@ class Woplmanageorderclass {
 				);
 			}
 		}
-		//$this->woplcommon->logIt(array("getOrderDetail",$oid,$detl));
-		return $detl;
+		//$this->woplcommon->logIt(array("getOrderDetail",$oid,$detl,$order_data['shipping']['postcode']));
+		return array("order_data"=>$order_data,"items"=>$detl);
 	}
 	
 	private function addReturnableCheckBoxToProduct() {

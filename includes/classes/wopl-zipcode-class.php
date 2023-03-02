@@ -90,6 +90,16 @@ class Woplzipcodeclass {
 		});
 	}
 	
+	public function zipcodeHasFacility($zipcode,$fac) {
+		//$this->woplcommon->logIt(array("zipcodeHasFacility",$zipcode,$fac));
+		global $wpdb;
+		$table_name = $wpdb->prefix . 'wopl_zipcode_settings';
+		$sql = "SELECT $fac FROM $table_name WHERE zipcode='$zipcode'";
+		$results = $wpdb->get_results($sql, ARRAY_N);
+		if(count($results) > 0) return strtolower($results[0][0])=="yes";
+		return false;
+	}
+	
 	
 
 }
