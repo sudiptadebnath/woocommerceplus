@@ -186,8 +186,12 @@ class Woplinstallclass {
 
 	public function wopl_menu(){  
 		add_menu_page('Woocommerce+', 'Woocommerce+', 'manage_options', 'woplmainslug'); 
-	    add_submenu_page('woplmainslug', 'Woocommerce+ General', 'General', 'manage_options', 'woplgenslug', function() { echo $this->woplcommon->loadView("generalsettings"); });
-	    add_submenu_page('woplmainslug', 'Woocommerce+ Zipcode', 'Zipcode', 'manage_options', 'woplmainslug', function() { echo $this->woplcommon->loadView("zipcodesettings"); });
+	    add_submenu_page('woplmainslug', 'Woocommerce+ General', 'General', 'manage_options', 'woplgenslug', 
+			function() { echo $this->woplcommon->loadView("generalsettings"); });
+	    add_submenu_page('woplmainslug', 'Woocommerce+ Zipcode', 'Zipcode', 'manage_options', 'woplzipcodeslug', 
+			function() { echo $this->woplcommon->loadView("zipcodesettings"); });
+	    add_submenu_page('woplmainslug', 'Woocommerce+ Product Addon', 'Product Addon', 'manage_options', 'woplprodadonslug', 
+			function() { echo $this->woplcommon->loadView("productaddon"); });
 		remove_submenu_page('woplmainslug', 'woplmainslug');
 		//add_menu_page('Data Feed', 'Data Feed', 'administrator', 'woplmainslug', array( $this->woplcommon, 'display_datafeed_main' ), 'dashicons-download'); 
 	    //add_submenu_page('woplmainslug', 'Data Feed', 'Data Feed', 'administrator', 'woplmainslug', array( $this->woplcommon, 'display_datafeed_main' ));

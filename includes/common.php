@@ -12,6 +12,7 @@ require_once("classes/wopl-recentitems-class.php");
 require_once("classes/wopl-manageorder-class.php");
 require_once("classes/wopl-login-class.php");
 require_once("classes/wopl-zipcode-class.php");
+require_once("classes/wopl-productaddon-class.php");
 
 
 global $session, $woplcommon, $woplmyaccount;
@@ -27,6 +28,5 @@ $woplwallet = new Woplwalletclass();
 $woplrecentitems = new Woplrecentitemsclass();
 $woplmanageorder = new Woplmanageorderclass();
 $woplloginclass = new Woplloginclass();
-
-
+$woplproductaddonclass = new Woplproductaddonclass();
 ?>
