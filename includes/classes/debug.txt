@@ -1,6 +1,0 @@
-03-02-2023 12:28:51=>["getOrderDetail",9746,{"896":{"product":"Farmina Vet Life Hepatic (VET LIFE HEPATIC)","returnable":true,"qty":1,"stock":8},"3343":{"product":"BIG BELL 1","returnable":true,"qty":1,"stock":1}},"700001"]
-03-02-2023 12:28:51=>["getOrderDetail",9745,{"896":{"product":"Farmina Vet Life Hepatic (VET LIFE HEPATIC)","returnable":true,"qty":1,"stock":8}},"700001"]
-03-02-2023 12:28:51=>["getOrderDetail",6429,[],"711112"]
-03-02-2023 12:44:18=>["zipcodeHasFacility","700001","return_abl"]
-03-02-2023 12:44:19=>["zipcodeHasFacility","700001","return_abl"]
-03-02-2023 12:44:19=>["zipcodeHasFacility","711112","return_abl"]

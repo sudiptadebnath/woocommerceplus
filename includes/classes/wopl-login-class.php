@@ -23,7 +23,8 @@ class Woplloginclass {
 		add_action('wp_ajax_nopriv_mob_login', function () {
 			$users = get_users( array (
 				'meta_key'     => 'billing_mobile_phone',
-				'meta_value'   => $_POST["umob"]
+				'meta_value'   => $_POST["umob"],
+				'compare' => '='
 			));
 			$ans="";
 			if ($users){
@@ -61,6 +62,35 @@ class Woplloginclass {
 			//$this->woplcommon->logIt(array("wp_ajax_nopriv_mail_login",$_POST,$user));
 			die($ans);
 		});
+		
+		add_action('wp_ajax_nopriv_mob_reg', function () {
+			$users = get_users( array (
+				'meta_key'     => 'billing_mobile_phone',
+				'meta_value'   => $_POST["umob_reg"],
+				'compare' => '='
+			));
+			if ($users){
+				$ans = $this->woplcommon->errRet('Mobile already registered.');
+			} else {
+				if($this->validateOtp($_POST["mobOTP_reg"],'MOBILE_REGISTER_OTP')) {
+					unset($_SESSION['MOBILE_REGISTER_OTP']);
+					$username = $_POST["umob_reg"];
+					$password = $_POST["umob_reg"].$_POST["mobOTP_reg"];
+					$user_id = wp_create_user($username, $password);
+					$user = get_user_by('id', $user_id);
+					wp_update_user(array ('ID' => $user->ID, 'first_name'=>$username, 'last_name'=>$username, 'display_name' => $username));    
+					update_user_meta($user->ID,'billing_mobile_phone',$username);
+					$user->remove_role('subscriber');
+					$user->add_role('customer');
+					wp_set_current_user($user->ID, $username);
+					wp_set_auth_cookie($user->ID);
+					$ans = $this->woplcommon->okRet('Login successful',wc_get_page_permalink('myaccount')."/edit-account");
+				} else {
+					$ans = $this->woplcommon->errRet('Invalid OTP');
+				}		
+			}
+			die($ans);
+		});
 	}
 	
 	private function displayAndSaveMobile() {
@@ -92,7 +122,8 @@ class Woplloginclass {
 				case "mob_login":
 					$users = get_users( array (
 						'meta_key'     => 'billing_mobile_phone',
-						'meta_value'   => $_POST["umob"]
+						'meta_value'   => $_POST["umob"],
+						'compare' => '='
 					));
 					if ($users){
 						$user = $users[0];
@@ -111,6 +142,20 @@ class Woplloginclass {
 					} else $ans = $this->woplcommon->errRet('No such email.');
 					break;
 			
+				case "mob_reg":
+					$users = get_users( array (
+						'meta_key'     => 'billing_mobile_phone',
+						'meta_value'   => $_POST["umob_reg"],
+						'compare' => '='
+					));
+					//$this->woplcommon->logIt(array($_POST,$users));
+					if ($users){
+						$ans = $this->woplcommon->errRet('Mobile already registered.');
+					} else {
+						$OTP = $this->genOtp($user,'MOBILE_REGISTER_OTP');
+						$ans = $this->woplcommon->okRet("OTP ($OTP) sent to :".$_POST["umob_reg"]);
+					}
+					break;			
 			}
 			die($ans);
 		});

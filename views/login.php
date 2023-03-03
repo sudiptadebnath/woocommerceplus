@@ -154,13 +154,10 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 <ul class="nav nav-justified nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" data-toggle="tab" href="#regUnmDiv"><?php esc_html_e( 'By Username', 'woocommerce' ); ?></a>
+    <a class="nav-link active" data-toggle="tab" href="#regUnmDiv"><?php esc_html_e( 'By Email', 'woocommerce' ); ?></a>
   </li>
   <li class="nav-item">
     <a class="nav-link" data-toggle="tab" href="#regMobDiv"><?php esc_html_e( 'By Mobile', 'woocommerce' ); ?></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#regMailDiv"><?php esc_html_e( 'By Email', 'woocommerce' ); ?></a>
   </li>
 </ul>
 <div class="tab-content">
@@ -227,6 +224,8 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
   </div>
 </div>
 			</p>
+			
+			
 			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
 				<label for="mailOTP_reg"><?php esc_html_e( 'OTP', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
 				<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="mobOTP_reg" id="mobOTP_reg" autocomplete="mobOTP_reg" />
@@ -236,54 +235,16 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 			<p class="form-row">
 				<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
-				<button type="submit" id="reg1" class="woocommerce-button button woocommerce-form-login__reg" name="reg1" value="<?php esc_attr_e( 'Register', 'woocommerce' ); ?>"><?php esc_html_e( 'Register', 'woocommerce' ); ?></button>
+				<button type="submit" id="register1" class="woocommerce-button button woocommerce-form-register__submit" name="register1" value="<?php esc_attr_e( 'Log in', 'woocommerce' ); ?>"><?php esc_html_e( 'Log in *', 'woocommerce' ); ?></button>
 			</p>
-
+			<p class="mainNav text-white p-2"><?php esc_html_e( '* Set password after login (old password will be Mobile No followed by OTP)', 'woocommerce' ); ?></p>
+			
 			<?php do_action( 'woocommerce_register_form_end' ); ?>
 
 		</form>
   </div>
-  
-	
-  <div class="tab-pane fade" id="regMailDiv">
-		<form class="woocommerce-form woocommerce-form-login register" onsubmit="return ajaxSumbit(this);">
 
-			<?php do_action( 'woocommerce_register_form_start' ); ?>
 
-			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-				<label for="umob"><?php esc_html_e( 'Email', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
-<div class="input-group mb-3">
-  <input type="hidden" name="action" value="uemail_reg" />
-  <input type="text" class="form-control" name="uemail_reg" id="uemail_reg" autocomplete="uemail_reg" 
-  value="<?php echo ( ! empty( $_POST['uemail_reg'] ) ) ? esc_attr( wp_unslash( $_POST['uemail_reg'] ) ) : ''; ?>" /><?php // @codingStandardsIgnoreLine ?>
-  <div class="input-group-append">
-    <button class="btn btn-success woocommerce-form-login__otp" type="button" onclick="otpRequest(this)">Send OTP</button>
-  </div>
-</div>
-			</p>
-			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-				<label for="mailOTP_reg"><?php esc_html_e( 'OTP', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
-				<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" 
-				name="mailOTP_reg" id="mailOTP_reg" autocomplete="mailOTP_reg" />
-			</p>
-
-			<?php do_action( 'woocommerce_register_form' ); ?>
-
-			<p class="form-row">
-				<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
-				<button type="submit" id="reg1" class="woocommerce-button button woocommerce-form-login__reg" name="reg2" value="<?php esc_attr_e( 'Register', 'woocommerce' ); ?>"><?php esc_html_e( 'Register', 'woocommerce' ); ?></button>
-			</p>
-
-			<?php do_action( 'woocommerce_register_form_end' ); ?>
-
-		</form>
-  </div>
- 
-	
-	
-	
-	
-	
 	
 </div>
 
@@ -296,22 +257,25 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 
 <script>
-function ajaxSumbit(frm,btn) {
+function ajaxSumbit(frm) {
 	jQuery(".woocommerce-notices-wrapper").hide();
 	jQuery(".woocommerce-form-login__submit").prop('disabled', true);
+	jQuery(".woocommerce-form-register__submit").prop('disabled', true);
 	jQuery.ajax({ type: "post", dataType: "json", url: ajax_object.ajax_url,
         data: jQuery(frm).serialize(),
         success: function (data) { 
-			jQuery(".woocommerce-form-login__submit").prop('disabled', false);
 			if(!data["err"]) {
 				window.location.href = data["data"];
 			}
 			else {
+				jQuery(".woocommerce-form-login__submit").prop('disabled', false);
+				jQuery(".woocommerce-form-register__submit").prop('disabled', false);
 				alert(data["msg"]);
 			}
 		},
         error: function (st, er) { 
 			jQuery(".woocommerce-form-login__submit").prop('disabled', false);
+			jQuery(".woocommerce-form-register__submit").prop('disabled', false);
 			alert("ERROR !! "+JSON.stringify([st, er]));
 		}		
     });
