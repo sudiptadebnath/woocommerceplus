@@ -152,6 +152,21 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 		<h2><?php esc_html_e( 'Register', 'woocommerce' ); ?></h2>
 
+<ul class="nav nav-justified nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#regUnmDiv"><?php esc_html_e( 'By Username', 'woocommerce' ); ?></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#regMobDiv"><?php esc_html_e( 'By Mobile', 'woocommerce' ); ?></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#regMailDiv"><?php esc_html_e( 'By Email', 'woocommerce' ); ?></a>
+  </li>
+</ul>
+<div class="tab-content">
+
+  <div class="tab-pane fade show active" id="regUnmDiv">
+
 		<form method="post" class="woocommerce-form woocommerce-form-register register" <?php do_action( 'woocommerce_register_form_tag' ); ?> >
 
 			<?php do_action( 'woocommerce_register_form_start' ); ?>
@@ -193,6 +208,84 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 			<?php do_action( 'woocommerce_register_form_end' ); ?>
 
 		</form>
+		
+	</div>
+	
+	
+  <div class="tab-pane fade" id="regMobDiv">
+		<form class="woocommerce-form woocommerce-form-login register" onsubmit="return ajaxSumbit(this);">
+
+			<?php do_action( 'woocommerce_register_form_start' ); ?>
+
+			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+				<label for="umob"><?php esc_html_e( 'Mobile Number', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
+<div class="input-group mb-3">
+  <input type="hidden" name="action" value="mob_reg" />
+  <input type="text" class="form-control" name="umob_reg" id="umob_reg" autocomplete="umob_reg" value="<?php echo ( ! empty( $_POST['umob_reg'] ) ) ? esc_attr( wp_unslash( $_POST['umob_reg'] ) ) : ''; ?>" /><?php // @codingStandardsIgnoreLine ?>
+  <div class="input-group-append">
+    <button class="btn btn-success woocommerce-form-login__otp" type="button" onclick="otpRequest(this)">Send OTP</button>
+  </div>
+</div>
+			</p>
+			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+				<label for="mailOTP_reg"><?php esc_html_e( 'OTP', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
+				<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="mobOTP_reg" id="mobOTP_reg" autocomplete="mobOTP_reg" />
+			</p>
+
+			<?php do_action( 'woocommerce_register_form' ); ?>
+
+			<p class="form-row">
+				<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
+				<button type="submit" id="reg1" class="woocommerce-button button woocommerce-form-login__reg" name="reg1" value="<?php esc_attr_e( 'Register', 'woocommerce' ); ?>"><?php esc_html_e( 'Register', 'woocommerce' ); ?></button>
+			</p>
+
+			<?php do_action( 'woocommerce_register_form_end' ); ?>
+
+		</form>
+  </div>
+  
+	
+  <div class="tab-pane fade" id="regMailDiv">
+		<form class="woocommerce-form woocommerce-form-login register" onsubmit="return ajaxSumbit(this);">
+
+			<?php do_action( 'woocommerce_register_form_start' ); ?>
+
+			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+				<label for="umob"><?php esc_html_e( 'Email', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
+<div class="input-group mb-3">
+  <input type="hidden" name="action" value="uemail_reg" />
+  <input type="text" class="form-control" name="uemail_reg" id="uemail_reg" autocomplete="uemail_reg" 
+  value="<?php echo ( ! empty( $_POST['uemail_reg'] ) ) ? esc_attr( wp_unslash( $_POST['uemail_reg'] ) ) : ''; ?>" /><?php // @codingStandardsIgnoreLine ?>
+  <div class="input-group-append">
+    <button class="btn btn-success woocommerce-form-login__otp" type="button" onclick="otpRequest(this)">Send OTP</button>
+  </div>
+</div>
+			</p>
+			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+				<label for="mailOTP_reg"><?php esc_html_e( 'OTP', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
+				<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" 
+				name="mailOTP_reg" id="mailOTP_reg" autocomplete="mailOTP_reg" />
+			</p>
+
+			<?php do_action( 'woocommerce_register_form' ); ?>
+
+			<p class="form-row">
+				<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
+				<button type="submit" id="reg1" class="woocommerce-button button woocommerce-form-login__reg" name="reg2" value="<?php esc_attr_e( 'Register', 'woocommerce' ); ?>"><?php esc_html_e( 'Register', 'woocommerce' ); ?></button>
+			</p>
+
+			<?php do_action( 'woocommerce_register_form_end' ); ?>
+
+		</form>
+  </div>
+ 
+	
+	
+	
+	
+	
+	
+</div>
 
 	</div>
 </div>
